@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6{
+  color:forestgreen;
+  font-familiy: sans-serif;
+}
+#scoreBoard{
+  font-weight: bold;
+  border: solid purple;
+  text-align: center;
+}
+thead{
+  color: red;
+}
+ul, li{
+  list-style-type: square;
+}
+.hyperLink:hover{
+  text-decoration: none;
+  color: yellow
+  background: forestgreen;
+}
+blockquote{
+  background-color: navy;
+  color: silver;
+}
