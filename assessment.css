@@ -14,8 +14,11 @@ tfoot{
 #teamRoster li{
   list-style-type: square;
 }
-#teamRoster>li{
+#teamRoster > li{
   list-style: none;
+}
+ol > li:first-child{
+  font-weight: bold;
 }
 .hyperLink:hover{
   text-decoration: none;
