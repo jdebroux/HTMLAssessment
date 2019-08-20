@@ -2,23 +2,42 @@ h1, h2, h3, h4, h5, h6{
   color:forestgreen;
   font-familiy: sans-serif;
 }
-#scoreBoard{
-  font-weight: bold;
-  border: solid purple;
-  text-align: center;
-}
 thead{
   color: red;
 }
-ul, li{
+#teamRoster li{
   list-style-type: square;
+}
+#teamRoster>li{
+  list-style: none;
 }
 .hyperLink:hover{
   text-decoration: none;
-  color: yellow
+  color: yellow;
   background: forestgreen;
 }
 blockquote{
   background-color: navy;
   color: silver;
+}
+#scoreBoard{
+  font-weight: bold;
+  border: solid purple;
+  text-align: center;
+}
+#checkbox-grid li{
+  list-style: none;
+}
+#teamRoster > li:first-child{
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#teamRoster > li:last-child{
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#teamRoster img{
+  visibility: hidden;
 }
