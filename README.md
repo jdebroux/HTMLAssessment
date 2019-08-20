@@ -1,6 +1,6 @@
-## HTML Assessment
+## HTML+CSS Assessment
 
-Week 7 day 1 homework for Skill Distillery Java bootcamp.
+Week 7 day 2 homework for Skill Distillery Java bootcamp.
 
 ### Overview
 
@@ -14,7 +14,7 @@ Continuing down you will notice more information about both teams.  There will b
 
 At the very bottom there is an option for user input.  You can enter your first and last name, what your favorite sport is, your experience with that sport, the level of profession of the sport, and a submit bottom down at the bottom.
 
-This website might not be super fancy, but its pretty awesome for someone that has 1 day of HTML experience!
+This website has now become fancier with the addition of the application of some basic CSS.  You will notice more color, and changes to list bullet styling which was all done through CSS.
 
 ### Technologies Used
 
@@ -22,6 +22,7 @@ This website might not be super fancy, but its pretty awesome for someone that h
 * Git
 * Terminal
 * HTML
+* CSS
 
 ### Lessons Learned
 
