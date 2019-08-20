@@ -1,8 +1,14 @@
 h1, h2, h3, h4, h5, h6{
   color:forestgreen;
-  font-familiy: sans-serif;
+  font-family: sans-serif;
 }
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
 thead{
+  color: orange;
+}
+tfoot{
   color: red;
 }
 #teamRoster li{
